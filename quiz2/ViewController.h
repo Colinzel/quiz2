@@ -10,4 +10,12 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)showQuestion:(id)sender;
+
+- (IBAction)showAnswer:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *questionLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *answerLabel;
+
 @end
